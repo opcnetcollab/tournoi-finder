@@ -1,0 +1,21 @@
+{
+  "name": "tournoi-finder-node",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Scraper FFTT → SQLite — version légère",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "nvs": "^1.1.21"
+  },
+  "devDependencies": {
+    "vitest": "^3.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
